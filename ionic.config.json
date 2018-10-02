@@ -1,0 +1,7 @@
+{
+  "name": "controll-panel",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

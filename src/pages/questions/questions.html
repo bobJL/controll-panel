@@ -1,0 +1,16 @@
+<ion-content padding>
+        <ion-card *ngFor="let question of questionGroup.questions; let i = index">  
+          <ion-card-header>
+            #{{ i + 1 }}
+          </ion-card-header>
+          <ion-card-content>
+              <p>{{ question.ask }}</p>
+              <p class="writer">{{ question.content }}</p>
+          </ion-card-content>
+          <ion-row>
+            <ion-col text-right> 
+            
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-content>
